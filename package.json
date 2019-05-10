@@ -1,0 +1,20 @@
+{
+  "name": "upload-backend",
+  "version": "1.0.0",
+  "description": "upload de imagens com node + react",
+  "main": "index.js",
+  "author": "madson douglas dos santos neves",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongose": "^0.0.2-security",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "sqlite": "^3.0.3"
+  }
+}
